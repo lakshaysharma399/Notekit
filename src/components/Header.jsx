@@ -1,9 +1,11 @@
 import React from "react";
+import HighlightIcon from '@mui/icons-material/Highlight';
 
 function Header() {
   return (
-    <header>
-      <h1>notekit</h1>
+    <header style={{ display: 'flex', alignItems: 'center' }}>
+      <HighlightIcon className="icon"/>
+      <h1>noteKit</h1>
     </header>
   );
 }
